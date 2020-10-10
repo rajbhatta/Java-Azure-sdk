@@ -8,21 +8,24 @@
             <version> 8.6.5</version>
         </dependency>
 ```
-### 2. Creating a record inside table storage ##
+## 2. Creating a record inside table storage ##
+### 2.1 Create storage account inside resource group ###
 <img src="img/storage-1.png"/>
 
+### 2.2 Once storage account is created, go inside it and get connection string ###
 <img src="img/storage-2.png"/>
 
-
+### 2.3 Click on storage account and hit table storage ###
 <img src="img/storage-3.png"/>
 
-
+### 2.4 Create table inside table storage ###
 <img src="img/storage-4.png"/>
 
+### 2.5 Run the application and send data inside table storage ##
 <img src="img/storage-5.png"/>
 
 
-### 3. Source code to create record ###
+## 3. Source code to create record ##
 ```java
 package raj.azure.archieve.runner;
 
