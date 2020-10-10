@@ -24,6 +24,8 @@
 ### 2.5 Run the application and send data inside table storage ##
 <img src="img/storage-5.png"/>
 
+### 2.6 You can even send UUID as partition key ##
+<img src="img/storage-6.png"/>
 
 ## 3. Source code to create record ##
 ```java

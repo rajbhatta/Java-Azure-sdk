@@ -8,6 +8,7 @@ import raj.azure.archieve.model.CustomerEntity;
 
 import java.net.URISyntaxException;
 import java.security.InvalidKeyException;
+import java.util.UUID;
 
 public class CreateRecord {
 
@@ -28,7 +29,7 @@ public class CreateRecord {
             CloudTable cloudTable=tableClient.getTableReference("tabletest");
 
             //Create a new customer entity
-            CustomerEntity customerEntity=new CustomerEntity("Raj","Bhatta");
+            CustomerEntity customerEntity=new CustomerEntity(UUID.randomUUID().toString(),"Bhatta");
             customerEntity.setEmail("raj@gmail.com");
             customerEntity.setPhoneNumber("444-444-444-4");
 
