@@ -16,7 +16,7 @@
 <img src="img/storage-2.png"/>
 
 ### 2.3 Click on storage account and hit table storage ###
-<img src="img/storage-3.png"/>
+<img src="img/storage-3-new.png"/>
 
 ### 2.4 Create table inside table storage ###
 <img src="img/storage-4.png"/>
