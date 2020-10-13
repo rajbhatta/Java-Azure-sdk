@@ -17,7 +17,7 @@ public class SendGridTemplateService implements EmailService {
     public void sendEmailWithTemplateId(User user) throws IOException {
         Mail mail = new Mail();
         mail.setFrom(new Email("bhatt11y@uwindsor.ca"));
-        mail.setTemplateId("d-7506d8f6535e4efd919b67cc9c424465 ");
+        mail.setTemplateId("7506d8f6535e4efd919b67cc9c424465 ");
 
         Personalization personalization = new Personalization();
         personalization.addDynamicTemplateData("firstName", user.getFirstName());
